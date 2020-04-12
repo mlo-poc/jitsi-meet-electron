@@ -1,6 +1,6 @@
 {
   "name": "jitsi-meet-electron",
-  "version": "2.0.0",
+  "version": "2.0.7",
   "description": "Electron application for konferenz-e",
   "main": "./build/main.js",
   "productName": "konferenz-e",
@@ -39,6 +39,10 @@
         {
           "arch": "x64",
           "target": "AppImage"
+        },
+        {
+          "arch": "x64",
+          "target": "deb"
         }
       ]
     },
@@ -56,7 +60,16 @@
     },
     "directories": {
       "buildResources": "resources"
-    }
+    },
+    "protocols": [
+      {
+        "name": "jitsi-protocol",
+        "role": "Viewer",
+        "schemes": [
+          "jitsi"
+        ]
+      }
+    ]
   },
   "pre-commit": [
     "lint"

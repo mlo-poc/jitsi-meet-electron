@@ -114,10 +114,10 @@ Apache 2. See the [LICENSE] file.
 Jitsi is built by a large community of developers, if you want to participate,
 please join [community forum].
 
-[Jitsi Meet]: https://github.com/jitsi/jitsi-meet
+[konferenz-e]: https://github.com/mlo-poc/jitsi-meet-electron
 [Electron]: https://electronjs.org/
-[latest release]: https://github.com/jitsi/jitsi-meet-electron/releases/latest
+[latest release]: 
 [jitsi-meet-electron-utils]: https://github.com/jitsi/jitsi-meet-electron-utils
-[jitsi-meet-electron-utils README]: https://github.com/jitsi/jitsi-meet-electron-utils/blob/master/README.md
+[jitsi-meet-electron-utils README]: 
 [community forum]: https://community.jitsi.org/
 [LICENSE]: LICENSE
