@@ -6,6 +6,11 @@ export default {
     aboutURL: 'https://hilfe.konferenz-e.de/',
 
     /**
+     * The URL to the source code repository.
+     */
+    sourceURL: 'https://github.com/jitsi/jitsi-meet-electron',
+
+    /**
      * Application name.
      */
     appName: 'konferenz-e',
