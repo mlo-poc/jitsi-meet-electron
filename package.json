@@ -1,5 +1,5 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "konferenz-e-electron",
   "version": "2.0.7",
   "description": "Electron application for konferenz-e",
   "main": "./build/main.js",
@@ -76,7 +76,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlo-poc/jitsi-meet-electron"
+    "url": "git://github.com/mlo-poc/jitsi-meet-electron"
   },
   "keywords": [
     "jingle",
