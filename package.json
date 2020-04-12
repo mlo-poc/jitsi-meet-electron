@@ -1,9 +1,9 @@
 {
   "name": "jitsi-meet-electron",
   "version": "2.0.0",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for konferenz-e",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "konferenz-e",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -16,8 +16,8 @@
     "watch": "webpack --config ./webpack.renderer.js --mode development --watch --watch-poll"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "appId": "meet.konferenz-e.de",
+    "productName": "konferenz-e",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "**/*",
@@ -26,15 +26,15 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "konferenz-e-meet.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true
     },
     "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
+      "artifactName": "konferenz-e-meet-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
+      "description": "konferenz-e Meet Desktop App",
+      "executableName": "konferenz-e-meet",
       "target": [
         {
           "arch": "x64",
@@ -43,7 +43,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "konferenz-e-meet.${ext}",
       "target": [
         {
           "arch": [
@@ -63,16 +63,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet-electron"
+    "url": "https://github.com/mlo-poc/jitsi-meet-electron"
   },
   "keywords": [
     "jingle",
     "webrtc",
     "xmpp",
     "electron",
-    "jitsi-meet"
+    "konferenz-e-meet"
   ],
-  "author": "Jitsi Team <support@jitsi.org>",
+  "author": "Martin Lorenz <mlo@poc.im>",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {
